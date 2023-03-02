@@ -22,7 +22,7 @@ def request_geo(road):
         return x, y
 
 
-x, y = request_geo("경기도 시흥시 산기대학로 237 (정왕동, 한국산업기술대학교)")
+x, y = request_geo("서울특별시 서대문구 이화여대길 52 (대현동, 이화여자대학교)")
 
 print(f'x값: {x}')
 print(f'y값: {y}')
